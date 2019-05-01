@@ -1,0 +1,15 @@
+    1  curl -fsSL https://get.docker.com/ | sh
+    2  sudo systemctl start docker
+    3  sudo systemctl status docker
+    4  sudo systemctl enable docker
+    5  docker pull httpd
+    7  docker images
+    8  docker ps
+    9  docker run -d --name hj httpd:latest
+   10  docker ps
+   11  yum install wget
+   12  wget 3.17.4.88
+   27  sudo docker run -d -p 7090:80 --name hjk httpd:latest
+   28  wget 3.17.4.88:7090
+   29  docker ps
+  
